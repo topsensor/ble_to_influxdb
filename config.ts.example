@@ -10,8 +10,8 @@ export class InfluxLogin {
   public constructor(
     host: string = 'localhost',
     port: number = 8086,
-    username: string = 'otso',
-    password: string = 'pa$$word'
+    username: string = '',
+    password: string = ''
   ) {
     this.host = host;
     this.port = port;
